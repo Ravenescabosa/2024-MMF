@@ -17,10 +17,10 @@ yes_no_list = ["yes", "no"]
 payment_list = ["cash", "credit"]
 
 for case in range(0, 5):
-    want_intructions = string_checker("Do you want to read the"
-                                      "instruction(y/n):",
-                                      1, yes_no_list)
-    print("You chose", want_intructions)
+    want_instructions = string_checker("Do you want to read the"
+                                       "instruction(y/n):",
+                                       1, yes_no_list)
+    print("You chose", want_instructions)
 
 for case in range(0, 5):
     pay_method = string_checker("...",
